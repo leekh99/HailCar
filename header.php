@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/newCssForAll.css">
   <!--Scripts-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
@@ -50,33 +51,31 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="nav navbar-nav nav-flex-icons ">
-              <li class="nav-item dropdown mr-2">
-                  <a class="nav-link dropdown-toggle text-white" href="#bg" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Background</a>
-                  <div id="bg" class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a href="index.php#aboutUs" class="dropdown-item  text-darken">About Us</a>
-                    <a href="index.php#faq" class="dropdown-item  text-darken">FAQ</a>
-                    <a href="index.php#contactUs" class="dropdown-item  text-darken">Contact Us</a>
-                  </div>
-              </li>
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
-                    <div  id="sv" class="dropdown-menu" aria-labelledby="dropdown01">
-                      <a href="service.php#hailcar" class="dropdown-item  text-darken">Hail Car</a>
-                      <a href="#" class="dropdown-item  text-darken">Just Hail </a>
-                      <a href="services.php#hailShare" class="dropdown-item  text-darken"> Hail Share </a>
-                      <a href="#" class="dropdown-item  text-darken">Hail Express</a>
-                      <a href="#" class="dropdown-item  text-darken">Hail Food</a>
+                    <a class="nav-link dropdown-toggle text-warning" href="#sv" id="dropdown01" role="button" data-toggle="dropdown" aria-haspopup="true"  data-hover="dropdown" aria-expanded="false">Services</a>
+                    <div  id="sv" class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
+                      <a href="service.php#hailcar" class="dropdown-item  text-white">Hail Car</a>
+                      <a href="service.php#hailShare" class="dropdown-item  text-white"> Hail Share </a>
+                      <a href="#" class="dropdown-item  text-white">Just Hail </a>
+                      <a href="#" class="dropdown-item  text-white">Hail Rent</a>
+                      <a href="#" class="dropdown-item  text-white">Hail Express</a>
+                      <a href="#" class="dropdown-item  text-white">Hail Food</a>
                     </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white px-3" href="">Hail Pay</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white px-3" href="">Hail Reward</a>
+                    <a class="nav-link text-white px-3" href="reward.php">Hail Reward</a>
+                </li>
+                <li class="nav-item dropdown mr-2">
+                    <a class="nav-link text-white" href="index.php#aboutUs">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white px-3" href="index.php#contactUs">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white px-3" href="index.php#faq">FAQs</a>
                 </li>
             </ul>
            <!--  <form class="form-inline my-2 my-lg-0">
